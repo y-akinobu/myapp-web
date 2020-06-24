@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title> Puppy Demo </title>
-  <script src="src/canvas.ts" defer></script>
+  <title> Demo </title>
 </head>
 <body>
-  <canvas id="canvas" ></canvas>
+  <!-- <canvas id="canvas"></canvas> -->
+  <h2>Monaco Editor Sample</h2>
+  <dir class="row">
+      <div class="col s6">
+          <div id="container1" style="width:40%;height:200px;border:1px solid grey"></div>
+      </div>
+      <div class="col s6">
+          <div id="container2" style="width:40%;height:200px;border:1px solid grey"></div>
+      </div>
+      <input type="button" id="mybutton" value="Click me"/>
+  </div>
+
+<!-- OR ANY OTHER AMD LOADER HERE INSTEAD OF loader.js -->
+  <script src="src/monaco.ts" defer></script>
 </body>
 </html>
